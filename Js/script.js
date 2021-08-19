@@ -44,7 +44,7 @@ buttons.map( button => {
     button.addEventListener('click', (e) => {
         switch(e.target.innerText){
             case 'C':
-                display.value = '0';
+                display.value = '';
                 break;
             case "MS":
                 window.localStorage.setItem('store',Number(display.value));
