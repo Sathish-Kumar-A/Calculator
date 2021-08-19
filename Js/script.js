@@ -93,7 +93,16 @@ document.onkeydown=function enter(event){
     }
     
 }
-
+let instructions=document.createElement('div');
+instructions.setAttribute('class','note');
+instructions.innerHTML=`<ul>
+<li>MC - Memory Clean</li>
+<li>MR - Memory Recall</li>
+<li>MS - Memory Store</li>
+<li>M+ - Add to Memory</li>
+<li>M- - subtract from Memory</li>
+</ul>`
+document.body.append(instructions)
 
 
 
