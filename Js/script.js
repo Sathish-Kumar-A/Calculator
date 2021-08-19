@@ -70,7 +70,7 @@ buttons.map( button => {
                 try{
                     display.value = eval(display.value);
                 } catch {
-                    window.alert("Only Numbers are Allowed")
+                    window.alert("Only Numbers and Valid Operations are Allowed")
                 }
                 break;
             case '←':
